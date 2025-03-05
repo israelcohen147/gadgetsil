@@ -17,7 +17,7 @@
         'https://connect.facebook.net/en_US/fbevents.js');
 
         fbq('init', '856531283232244'); 
-        fbq('track', 'Lead'); // שינוי מ-PageView ל-Lead
+        fbq('track', 'Lead');
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=856531283232244&ev=Lead&noscript=1"/>
@@ -25,8 +25,8 @@
     <!-- End Meta Pixel Code -->
 
     <script>
-        // הפניה אוטומטית לוואטסאפ עם טיימר
-        let countdown = 5; // זמן שניות לפני המעבר
+        // הפניה אוטומטית לוואטסאפ עם טיימר של 3 שניות
+        let countdown = 3;
         function updateCountdown() {
             document.getElementById("countdown").innerText = countdown;
             countdown--;
@@ -45,7 +45,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background: url('https://github.com/YOUR_GITHUB_REPO/raw/main/israel') no-repeat center center fixed;
+            background: url('Israel.jpg') no-repeat center center fixed;
             background-size: cover;
             padding: 50px;
             margin: 0;
@@ -91,9 +91,8 @@
     <div class="container">
         <h1>ברוכים הבאים לקהילת הגאדג'טים!</h1>
         <h2>עוד כמה רגעים ואתה בקהילת הגאדג'טים הטובה בישראל!</h2>
-        <p>מעבר לקבוצת הוואטסאפ בעוד <span class="countdown-box" id="countdown">5</span> שניות...</p>
+        <p>מעבר לקבוצת הוואטסאפ בעוד <span class="countdown-box" id="countdown">3</span> שניות...</p>
         <p>אם לא הועברת אוטומטית, <a href="https://chat.whatsapp.com/FMLAqG2MIyZHAjNGsWFkSE">לחץ כאן</a></p>
     </div>
 </body>
 </html>
-
